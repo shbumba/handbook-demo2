@@ -1,0 +1,41 @@
+{
+    "name": "vitaly63/handbook-demo2",
+    "description": "Generating data and template filling in a Word file.",
+    "keywords": [
+        "PHP",
+        "book",
+        "datebook",
+        "daybook"
+    ],
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vitaly63/HandBook"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "vitaly63/handbook": "*",
+        "phpoffice/phpword": "v0.13.*",
+        "krustnic/docx-merge": "^1.0"
+    },
+    "require-dev": {
+        "php": ">=5.6",
+        "vitaly63/handbook": "*",
+        "phpoffice/phpword": "v0.13.*",
+        "krustnic/docx-merge": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Vitaly Fomin",
+            "email": "vitaly63fomin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "HandBook\\": "src/HandBook"
+        }
+    }
+}
